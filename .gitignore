@@ -1,4 +1,38 @@
+# Python cache and compiled files
 __pycache__/
+*.py[cod]
+*.pyo
+
+# Environments
 .env
+.venv/
+env/
 venv/
-*.pyc
+.mamba/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# MacOS system files
+.DS_Store
+
+# VSCode/IDE
+.vscode/
+*.code-workspace
+
+# Uploaded/temporary files
+uploads/
+local_*.pdf
+*.log
+
+# S3/test data (optional)
+test_data/
+
+# PyInstaller / Packaging
+*.spec
+dist/
+build/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db

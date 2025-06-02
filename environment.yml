@@ -1,0 +1,14 @@
+name: resume-screener
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - boto3
+  - python-dotenv
+  - pip
+  - pip:
+      - sentence-transformers
+      - fastapi
+      - boto3
+      - dotenv
+      - pdfminer.six
